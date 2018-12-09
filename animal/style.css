@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	
+	font-family: Arial, sans-serif;
+	width:400px;
+	margin:0 auto;
+	height: 100%;
+}
+header{
+	-webkit-box-shadow: 3px 13px 36px 1px rgba(50,117,72,0.61);
+	-moz-box-shadow: 3px 13px 36px 1px rgba(50,117,72,0.61);
+	box-shadow: 3px 13px 36px 1px rgba(50,117,72,0.61);
+}
+
+
+
+h1 {
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	color: #4f4f4f;
+	margin: 0 auto;
+	background-color: tomato;
+}
+#name{
+	font-family:sofia;
+	font-size: 40px;
+	color:white;
+}
+#article-1{
+	border:3px solid black;
+	background : rgba(240,240,240,0.6);
+	padding:10px;
+}
+img{
+	width:300px;
+	border-radius: 50%;
+	padding: 0 35px 0;
+	//margin: 0 auto;
+}
+.p-0{
+	background-color: rgb(255,140,0);
+	padding: 4px;
+	border: 1px solid tomato;
+	color:white;
+	//z-index:-1;
+}
+#sec-0::first-letter{
+	color:tomato;
+	font-weight: bold;
+	font-size: xx-large;
+}
+.li-0{
+	list-style-type: none;
+	//padding-left:-35px;
+	//list-style-position: outside;
+}
+.ul-0{
+	list-style-position: inside;
+}
+#sec-0{
+	background-color: grey;
+	padding: 10px 10px;
+	border: 1px solid grey;
+	color:white;
+
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color:black;
+}
+a:active{
+	color:tomato;
+}
